@@ -1,0 +1,239 @@
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav {
+    width: 80%;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    text-align: left;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    height: 2em;
+    z-index: 1;
+    top: 0;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    padding: 0.4em;
+    position: relative;
+    bottom: 8%;
+}
+
+header {
+    margin: 0.1em;
+    margin-top: 3em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-justify: inter-word; 
+    background-color: #ddd;
+}
+
+main p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+}
+
+main h2{ 
+    text-align: justify;
+    text-justify: inter-word;    
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 0.5em;
+    padding-right: 1em;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+ul ol {
+    margin-top: 1em;
+}
+
+.description {
+    text-align: center; 
+    
+}
+
+table a {
+    text-decoration: none;
+}
+.images img {
+    width: 18em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.containg {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.images table p{
+    text-align: justify;
+    text-justify: inter-word; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.6em;
+    text-decoration: none;
+}
+
+.images table th{
+    padding: 0.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.images table td{
+    padding: 0.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.3em;
+    font-size: .8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.galeria {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeria .cuadros img {
+    width: 20em;
+    margin-left: 3em;
+}
+
+.galeria img {
+    width: 12em;
+    border: 0.1em solid #000;
+}
+.galeria .unique img {
+    width: 41em;
+    height: 15em;
+    margin: 0.2em;
+}
+.galeria table p {
+    text-align: justify;
+    text-justify: inter-word; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.6em;
+    margin: 0.1em;
+}
+
+.galeria table h2 {
+    text-align: justify;
+    text-justify: inter-word; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.3em;
+}
+
+.inersection {
+    background-color: #ddd;
+}
+.inersection p{
+    width: 40em;
+    background-color: #ddd;
+}
+
+.section {
+    width: 15em;
+}
+
+.column img{
+    width: 40%;
+    position: relative;
+    text-align: center;
+}
+
+*{box-sizing: border-box;}
+    .column {
+    float: left;
+    width: 50%;
+    padding: 1.1em;
+    height: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .column a {
+        text-decoration: none;
+        border: 0.1em solid #fff;
+        border-radius: 0.6em;
+        padding: 0.3em;
+        background-color: #ddd;
+    }
+
+    .column a{
+        transition: 0.4s;
+    }
+    .column a:hover {
+        background-color: paleturquoise;
+        color: #000;
+    }
+
+    
+
+    .column video {
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+
